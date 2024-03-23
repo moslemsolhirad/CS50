@@ -1,0 +1,10 @@
+face = input ("")
+x = "Hello :)"
+y = "Goodbye :("
+z = "Hello :) Goodbye :("
+if face == x:
+    print("Hello 🙂")
+if face == y:
+    print("Goodbye 🙁")
+if face==z:
+    print("Hello 🙂 Goodbye 🙁")
