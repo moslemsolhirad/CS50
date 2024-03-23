@@ -1,4 +1,4 @@
-M = str(input())
-C = 300
+M = int(input())
+C = 300,000,000
 E = int(M * C * C)
 print(E)
