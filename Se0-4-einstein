@@ -1,1 +1,4 @@
-
+M = str(input())
+C = 300
+E = int(M * C * C)
+print(E)
