@@ -1,4 +1,2 @@
-x = input("")
-y = input("")
-z = input("")
-print(x,"...", y,"...", z)
+x = input("This is CS50")
+print("This","...","is","...","CS50")
