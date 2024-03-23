@@ -1,2 +1,3 @@
-name = input("what is your name?")
-print(name)
+A = input("Hello, WORLD")
+A = input("Hello, World".lower())
+print(A)
