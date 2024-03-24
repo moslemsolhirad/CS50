@@ -1,1 +1,7 @@
+name1 = int(input("how much was the meal?"))
+name2 = float(input("what percentage would you like to pay?"))
+name3 = name2/100
+
+y = name1 * name3
+print("$", y)
 
