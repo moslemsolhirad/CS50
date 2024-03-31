@@ -1,0 +1,22 @@
+#Version1:
+x = 42 
+
+p = int(input("what is the anser to great qustion of life,the universe and everything?"))
+if p == x: 
+    print("yes")
+q = (input("what is the anser to great qustion of life,the universe and everything?"))
+if q == str("forty two"):
+    print("yes")
+r = (input("what is the anser to great qustion of life,the universe and everything?"))
+if r == str("forty-two"):
+    print("yes")
+
+#Version2:
+x = str("42")
+y = str("forty two")
+z = str("forty-two")
+
+p = input("what is the anser to great qustion of life,the universe and everything?")
+
+if p == x or y or z:
+    print("yes")
